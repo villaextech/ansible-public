@@ -3,7 +3,7 @@
   user: root
   become: yes
   vars:
-    docker_compose_version: "1.28.5"
+    docker_compose_version: "v2.24.6"
   tasks:
     # UPGRADE AND INSTALL REQUIRED UBUNTU PACKAGES
     - name: Update apt cache
